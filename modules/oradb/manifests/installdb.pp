@@ -28,6 +28,7 @@ define oradb::installdb(
   $remoteFile              = true,
   $cluster_nodes           = undef,
   $cleanup_installfiles    = true,
+  $tempDir                 = '/tmp',  
 )
 {
   if ( $createUser == true ){

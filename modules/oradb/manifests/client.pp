@@ -15,6 +15,7 @@ define oradb::client(
   $puppetDownloadMntPoint  = undef,
   $remoteFile              = true,
   $logoutput               = true,
+  $tempDir                 = '/tmp',
 )
 {
   # check if the oracle software already exists
